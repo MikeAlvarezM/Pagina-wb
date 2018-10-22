@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CineMike</title>
+     <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/w3.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>PeliMike</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio" data-scroll></i>Inicio</a></li>
+          <li><a href="#peliculas" data-scroll>Peliculas</a></li>
+          <li><a href="#estrenos" data-scroll>Estrenos</a></li>
+          <li><a href="#proximamente" data-scroll>Proximamente</a></li>
+          <li><a href="#nosotros" data-scroll>Nosotros</a></li>
+        </ul>
+      </nav>
+      </header>
+
+      <section id="inicio" >
+      <h2 class="animated infinite zoomInLeft delay-3s">Peliculas</h2>
+      <h3>mas vistas</h3>
+      <a href="#"class="comprar">Estrenos </a>
+      <a class="animated infinite bounce delay-2s" href="#estrenos"> <i class="fas fa-arrow-circle-down"></i> </a>
+       <div class="video">
+        <video src="./Videos/VENOM - Tráiler Oficial.mp4" width="1280" height="550"autoplay loop muted controls> </video>
+      </div>
+    </section>
+
+    <section id="peliculas" class="parallax-window" data-parallax="scroll" data-image-src="./img/inicio1.jpg">
+
+      <div class="proximamente">
+
+
+        <div class="w3-content w3-display-container">
+          <div class="mySlides">
+            <img class="" src="./img/venom.jpg"  >
+            <div class="crecer" >
+              <h2>Venom</h2>
+              <p> Eddie Brock (Tom Hardy) es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida.
+                  Esta fundación, dirigida por el eminente científico Carlton Drake (Riz Ahmed), está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes.
+                  Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte.
+                  Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer.
+                  Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <img class="" src="./img/thor.jpg" >
+            <div class="crecer" >
+              <h2>Thor:Ragnarok</h2>
+              <p> Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo.
+                  Su objetivo es volver a Asgard y parar el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela.
+                  Pero, primero deberá sobrevivir a una competición letal de gladiadores que lo enfrentará a su aliado y compañero en los Vengadores, ¡el Increíble Hulk!.</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <img class="" src="./img/capitaname.jpg">
+            <div class="crecer" >
+              <h2>Capitan América:CIVIL WAR</h2>
+              <p> Después de que otro incidente internacional involucre a Los Vengadores, causando varios daños colaterales,
+                  aumentan las presiones políticas para instaurar un sistema que exija más responsabilidades y que determine cuándo deben contratar los servicios del grupo de superhéroes.
+                  Esta nueva situación dividirá a Los Vengadores, mientras intentan proteger al mundo de un nuevo y terrible villano.</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <img class="" src="./img/halloween.jpg" >
+            <div class="crecer" >
+              <h2>Halloween (2018)</h2>
+              <p> Jamie Lee Curtis regresa a su icónico personaje Laurie Strode, quien llega a la confrontación final con Michael Myers,
+                  la figura enmascarada que la ha perseguido desde que escapó de la matanza que él hizo la noche de Halloween hace cuatro décadas.
+                  Nueva entrega de "Halloween", será secuela directa de la original de 1978. John Carpenter (creador de la original) será productor ejecutivo.</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <img class="" src="./img/ht3.jpg">
+            <div class="crecer" >
+              <h2>Hotel Transylvania 3: Monstruos de vacaciones</h2>
+              <p> Nuestra familia de monstruos favorita se embarca en un crucero de lujo para que por fin Drac pueda tomarse un descanso de proveer de vacaciones al resto en el hotel.
+                  Es una navegación tranquila para la pandilla de Drac, ya que los monstruos se entregan a toda la diversión a bordo que ofrece el crucero, desde el voleibol de monstruos y las excursiones exóticas, a ponerse al día con sus bronceados de luna.
+                  Pero las vacaciones de ensueño se convierten en una pesadilla cuando Mavis se da cuenta de que Drac se ha enamorado de la misteriosa capitana de la nave, Ericka, quien esconde un peligroso secreto que podría destruir a todos los monstruos</p>
+            </div>
+          </div>
+
+
+
+            <button class=" w3-circle w3-wide w3-display-left w3-black  botonizquieda" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-circle  w3-wide w3-display-right w3-black botonderecha" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          </div>
+
+      </section>
+
+    <section id="estrenos" >
+    <h3>Peliculas de Estreno aqui en tu pagina PeliMike</h3>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlidesautomatic" src="./img/cartelera/venomC.jpg" style="width:40%; height:250px">
+        <img class="mySlidesautomatic" src="./img/cartelera/capitanameC.jpg" style="width:40% ; height:250px">
+        <img class="mySlidesautomatic" src="./img/cartelera/hallowenC.jpg" style="width:40%; height:250px">
+      </div>
+
+    </section>
+
+    <section id="proximamente" >
+        <h3>Proximos Estrenos en CineMike</h3>
+
+
+
+    </section>
+
+    <section id="nosotros">
+      <div class="formulario">
+        <form >
+            <h3>Informanos sobre dudas</h3>
+            <fieldset>
+              <label for="name:">Nombre:</label>
+              <input type="text" name="" value="" id="name" required>
+            </fieldset>
+            <fieldset>
+              <label for="address">Dirección</label>
+              <input type="text" name="" value="" id="address" required>
+            </fieldset>
+            <fieldset>
+              <label for="tel">Teléfono</label>
+              <input type="text" name="" value="" id="tel" required>
+            </fieldset>
+            <fieldset>
+              <label for="mensaje">Mensaje</label>
+              <textarea name="name" rows="8" id="mensaje" required></textarea>
+            </fieldset>
+            <fieldset>
+              <input type="submit" name="" value="INGRESAR">
+            </fieldset>
+        </form>
+
+      </div>
+      <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1725.5389558456352!2d-107.61399267620679!3d30.12058398724799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86c33ee7017dd619%3A0x8b5fa247190e748e!2sJos%C3%A9+M.+Morelos%2C+Hermenegildo+Galeana%2C+Chih.!5e0!3m2!1ses!2smx!4v1539015040391"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+    </div>
+
+    <!-- <section id="informacion">
+      <div class="">
+        <img src="./img/acercade.jpg" style="width: 100%">
+          <img class="" src="./whats.png" style="width:20px " >
+           <img class="" src="./facebook.png" style="width:20px " >
+            <img  class=""src="./aboutus.jpg"  style="width:40px">
+        </div>
+
+    </section> -->
+
+        <script  src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/parallax.min.js" ></script>
+          <script src="./js/smooth-scroll.polyfills.min.js"></script>
+        <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+
+ //Slidebar para mover las imagenes
+ var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+ //mover Imagenes automaticamente
+ var myIndex = 0;
+ carousel();
+
+ function carousel() {
+     var i;
+     var x = document.getElementsByClassName("mySlidesautomatic");
+     for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+     }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+     x[myIndex-1].style.display = "block";
+     setTimeout(carousel, 4000); // Change image every 2 seconds
+ }
+
+</script>
+
+  </body>
+</html>

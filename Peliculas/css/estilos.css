@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #000000;
+  /*Tipo de letra que afecta todo el Body*/
+  font-family: 'Indie Flower', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Amatic SC', cursive;
+}
+header{
+  background-color: #878c8f;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+header > h1{
+color: white;
+width: 20%;
+margin-left: 10%;
+float: left;
+line-height: 2;
+}
+header > nav{
+  width: 50%;
+  margin-left:20%;
+  float: left;
+}
+header > nav > ul > li{
+  float: left;
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
+  list-style: none;
+  line-height: 3;
+  text-align: center;
+}
+header > nav > ul > li > a{
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+section{
+  min-height: 500px;
+}
+section#inicio{
+  height:90vh;
+
+}
+section#inicio > h2{
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 200px;
+  float: left;
+  width: 100%;
+  text-shadow: 4px 4px 0px rgba(129, 133, 129, 0.58);
+}
+section#inicio > h3{
+  color: blue;
+  font-size: 2rem;
+  text-align: center;
+
+}
+section#inicio > a.comprar{
+  color: blue;
+  font-size: 2rem;
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  /* border: 2px solid white; */
+  text-align: center;
+  margin: 0 auto;/*centrar caja de comprar automaticamente*/
+}
+section#inicio> a:last-child{
+  color: #878c8f;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size:  3rem;
+}
+.peliculas {
+  width: 30%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  height: 300px;
+  float: left;
+  margin-top: 10px;
+}
+.peliculas > img{
+  width: 90%;
+  margin-left: 5%;
+  height: 80%;
+}
+section#peliculas{
+  background-size: 100% 100%;
+  padding-top: 50px;
+    filter: brightness(120%);
+}
+section#estrenos{
+  background-image:url(../img/fondo.jpg);
+  background-size: 100% 100%;
+  padding-top: 70px;
+  filter: saturate(150%);
+  min-height: 300px;
+}
+section#estrenos > h3{
+  color: darkorange;
+  text-align: center;
+  text-align:
+  font-size: 2.2rem;
+  padding-top: 0px;
+
+}
+section#proximamente{
+  margin-top: -20px;
+  background-image: url(../img/proximamente.jpg);
+  background-size: 100% 100%;
+  filter:  grayscale(200);
+  min-height: 300px;
+
+}
+section#proximamente > h3{
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 100px;
+
+}
+
+.mySlides{
+  margin: auto;
+  display:none;
+  height: 500px;
+  transition: all 2.2s ease-in-out;
+}
+.mySlides : hover{
+  transform: scale(1.1);
+}
+.mySlides img  {
+  width: 100%;
+  height: 100%;
+
+}
+
+.mySlidesautomatic{
+  margin: auto;
+  display: none;
+}
+
+section#peliculas > div > div {
+  top: 50%;
+
+}
+.botonizquieda{
+position: absolute;
+font-size: 2.2rem;
+top: 50%;
+height: 60px;
+width: 60px;
+}
+.botonderecha{
+  position: absolute;
+  font-size: 2.2rem;
+  top: 50%;
+  right: 0%;
+  height: 60px;
+  width: 60px;
+}
+
+section#nosotros .formulario{
+width: 50%;
+float: left;
+}
+section#nosotros .mapa{
+  width: 50%;
+  float: left;
+}
+section#nosotros .formulario form{
+  padding: 10px;
+}
+section#nosotros .formulario form h3{
+  font-size: 2rem;
+  color: floralwhite;
+}
+section#nosotros .formulario form fieldset{
+  margin-top: 10px;
+  border: none;
+}
+section#nosotros .formulario form fieldset label{
+  display: block;
+  color: floralwhite;
+  width: 100%;
+}
+section#nosotros .formulario form fieldset input[type="text"],
+section#nosotros .formulario form fieldset textarea{
+  display: block;
+  color: floralwhite;
+  width: 80%;
+  border: none;
+  color: blue;
+  outline-color: red;
+  height: 30px;
+}
+section#nosotros .formulario form fieldset textarea{
+  height: 200px;
+  resize: none;
+}
+section#nosotros .formulario form fieldset input [type="submit"]{
+  background-color: red;
+  color: white;
+  width:  140px;
+  height: 30px;
+  border:none;
+}
+/* section#informacion div{
+  width: 100%;
+  background-image: url(../img/acercade.jpg);
+  background-size: 100% 100%;
+  min-height: 300px;
+
+} */
+
+.mySlides div{
+  font-size: 0.9rem;
+color: white;
+height: 170px;
+background-color: rgba(10, 10, 10, 0.4);
+margin-top: -180px;
+position: absolute;
+z-index: 2;
+width: 100%;
+}
+.video {
+  z-index: 0;
+  margin-top: -282px;
+  position:sticky;
+
+}
+.video video{
+width: 100%;
+margin-top: -257px;
+  z-index: 0;
+}
